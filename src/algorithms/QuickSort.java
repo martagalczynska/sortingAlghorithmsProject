@@ -30,7 +30,11 @@ public class QuickSort {
         }
     }
 
-    public void quickSort(int[]arr){
-        quickSort(arr, 0, arr.length-1);
+    public void quickSort(int[] arr) {
+        try {
+            quickSort(arr, 0, arr.length - 1);
+        } catch (StackOverflowError e) {
+
+        }
     }
 }

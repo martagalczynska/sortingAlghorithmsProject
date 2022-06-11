@@ -1,26 +1,58 @@
 BUBBLE SORT:
-Random array sorting time: 4082700
-Sorted array sorting time: 1805700
-Reversed sorted array sorting time: 836700
-Repeated values array sorting time: 951200
+Random array 10^3 sorting time: 5398500
+Sorted array 10^3 sorting time: 2094600
+Reversed sorted array 10^3 sorting time: 1055100
+Repeated values array 10^3 sorting time: 1611900
+Random array 10^5 sorting time: 168143800
+Sorted array 10^5 sorting time: 28329400
+Reversed sorted array 10^5 sorting time: 796600
+Repeated values array 10^5 sorting time: 159575400
+Random array 10^7 sorting time: 15707082200
+Sorted array 10^7 sorting time: 2470174700
+Reversed sorted array 10^7 sorting time: 77446900
+Repeated values array 10^7 sorting time: 15664873300
 
 
 QUICK SORT:
-Random array sorting time: 3287000
-Sorted array sorting time: 2738000
-Reversed sorted array sorting time: 529300
-Repeated values array sorting time: 73900
+Random array 10^3 sorting time: 4466100
+Sorted array 10^3 sorting time: 4827000
+Reversed sorted array 10^3 sorting time: 725000
+Repeated values array 10^3 sorting time: 126800
+Random array 10^4 sorting time: 36410200
+Sorted array 10^4 sorting time: 56775500
+Reversed sorted array 10^4 sorting time: 759900
+Repeated values array 10^4 sorting time: 5611600
+Random array 10^5 sorting time: 1387311800
+Sorted array 10^5 sorting time: 1439096500
+Reversed sorted array 10^5 sorting time: 55743200
+Repeated values array 10^5 sorting time: 555186700
 
 
 SELECTION SORT:
-Random array sorting time: 2784300
-Sorted array sorting time: 1453000
-Reversed sorted array sorting time: 1616400
-Repeated values array sorting time: 110400
+Random array 10^3 sorting time: 3086700
+Sorted array 10^3 sorting time: 2041600
+Reversed sorted array 10^3 sorting time: 629800
+Repeated values array 10^3 sorting time: 1739800
+Random array 10^4 sorting time: 19086400
+Sorted array 10^4 sorting time: 16809200
+Reversed sorted array 10^4 sorting time: 391800
+Repeated values array 10^4 sorting time: 16471900
+Random array 10^5 sorting time: 1635990000
+Sorted array 10^5 sorting time: 1654875000
+Reversed sorted array 10^5 sorting time: 16568400
+Repeated values array 10^5 sorting time: 1660361500
 
 
 MERGE SORT:
-Random array sorting time: 638800
-Sorted array sorting time: 150000
-Reversed sorted array sorting time: 131900
-Repeated values array sorting time: 117600
+Random array 10^3 sorting time: 871600
+Sorted array 10^3 sorting time: 333900
+Reversed sorted array 10^3 sorting time: 371300
+Repeated values array 10^3 sorting time: 306000
+Random array 10^4 sorting time: 1569700
+Sorted array 10^4 sorting time: 1646600
+Reversed sorted array 10^4 sorting time: 298200
+Repeated values array 10^4 sorting time: 2443200
+Random array 10^5 sorting time: 13770900
+Sorted array 10^5 sorting time: 6140500
+Reversed sorted array 10^5 sorting time: 516800
+Repeated values array 10^5 sorting time: 9333800
