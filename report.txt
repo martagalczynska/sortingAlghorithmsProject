@@ -1,0 +1,12 @@
+BUBBLE SORT:
+Random array sorting time: 7425700
+Sorted array sorting time: 1559300
+Reversed sorted array sorting time: 3680000
+Repeated values array sorting time: 1247800
+
+
+QUICK SORT:
+Random array sorting time: 6784100
+Sorted array sorting time: 5666400
+Reversed sorted array sorting time: 979000
+Repeated values array sorting time: 179100
