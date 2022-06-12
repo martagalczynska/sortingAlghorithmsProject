@@ -36,42 +36,42 @@ public class TimeMeasure {
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getRandomArray2());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Random array 10^5 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Random array 10^4 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getSortedArray2());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Sorted array 10^5 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Sorted array 10^4 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getReversedSortedArray2());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Reversed sorted array 10^5 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Reversed sorted array 10^4 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getRepeatedValuesArray2());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Repeated values array 10^5 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Repeated values array 10^4 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getRandomArray3());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Random array 10^7 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Random array 10^5 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getSortedArray3());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Sorted array 10^7 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Sorted array 10^5 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getReversedSortedArray3());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Reversed sorted array 10^7 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Reversed sorted array 10^5 sorting time: " + estimatedTime);
 
         startTime = System.nanoTime();
         bubbleSort.bubbleSort(arrays.getRepeatedValuesArray3());
         estimatedTime = System.nanoTime() - startTime;
-        fileWrite.writeToFile("Repeated values array 10^7 sorting time: " + estimatedTime);
+        fileWrite.writeToFile("Repeated values array 10^5 sorting time: " + estimatedTime);
     }
 
     public void measureQuickSort(QuickSort quickSort, ArraysSample arrays) {
